@@ -1,0 +1,1 @@
+select utils.createsadmin('pcsinaloa.programasinternos@gmail.com','marcela2718','00000000')

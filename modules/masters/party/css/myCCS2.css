@@ -1,0 +1,175 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.MajorTitleMajorCenter {
+    color: black;
+    font-size: 29px;      
+    width: 100%;
+    left: 0;
+    text-align: center;  
+}
+
+.MajorTitleMajorLeft {
+    color: black;
+    font-size: 29px;      
+    width: 100%;
+}
+
+.MinorMainTitleCenter{
+    color: black;
+    font-size:20px;      
+    width: 100%;
+    left: 0;
+    text-align: center;     
+}
+
+.MinorMainTitleLeft{
+    color: black;
+    font-size:20px;      
+    width: 100%;  
+}
+
+.SmallLabelLeft{
+    color: black;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.title {
+    color: black;
+}
+
+.input {
+    display: flex;
+}
+
+.room{
+    color: black;
+    font-size:15px; 
+    width: 100%;
+    float: left;
+    height: 45px;
+
+}
+
+.room2{
+    color: black;
+    font-size:12px; 
+    width: 100%;
+    float: left;
+    height: 80px;
+
+}
+.check{
+    width: 20px;
+}
+
+.date {
+    position: relative;
+    width: 150px; height: 20px;
+    color: white;
+}
+
+.date:before {
+    position: absolute;
+    top: 3px; left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+.date::-webkit-datetime-edit, .date::-webkit-inner-spin-button, .date::-webkit-clear-button {
+    display: none;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+
+.textarea{
+    height: 30rem!important;
+}
+
+.textarea2{
+    height: 5rem!important;
+}
+
+.img-previewiddocument {
+    height: 15vw;
+    width: 25vw;
+    border-radius: 0.5rem;
+}
+
+.x{
+    margin-bottom: 1.9rem;
+}
+
+.x2{
+
+    margin-bottom: 2.3rem;
+}
+
+.x3{
+    margin-bottom: 2.15rem;
+}
+
+.classr{
+        color: black;
+}
+
+.radiosT{
+    width: auto!important;
+}
+
+.btninicio{
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 18px;
+    height: 2.2rem;
+    padding: 5px;
+    background-image: -webkit-gradient(linear,0% 0%,0% 140%,from(rgba(28,91,155,.8)),to(rgb(51, 65, 76)));    
+}
+/*          .thumb {
+            height: 128px;
+            border: 1px solid #000;
+            margin: 10px 5px 0 0;
+          }*/
